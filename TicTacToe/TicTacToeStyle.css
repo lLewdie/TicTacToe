@@ -1,3 +1,22 @@
 ﻿body {
-    background-color: cadetblue;
+    background-color: #333333;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+}
+
+
+#winMessage {
+    margin-top: 10px;
+    color: green;
+    font-size: large;
+}
+
+#invalidMove {
+    margin-top: 10px;
+    color: red;
 }
