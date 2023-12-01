@@ -8,7 +8,11 @@
     grid-template-rows: repeat(3, 100px);
     gap: 5px;
 }
-
+#turnIndicator{
+    margin-bottom: 10px;
+    color: crimson;
+    font-size: medium;
+}
 #winMessage {
     margin-top: 10px;
     color: green;
